@@ -1,0 +1,40 @@
+:root{
+    --primary-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+body {
+background-color: #ffff;
+color: #212121;
+;
+}
+ul{
+    list-style: none;
+
+}
+/* logotype*/
+.logo a {
+    
+    color: #212121;
+}
+.logo-web{
+    color: #2196F3;
+}
+/* site navigation*/
+
+.site-nav a {
+    color: #212121;
+}
+.site-nav.current a{
+   color :var();
+
+}
+.color-nav a{
+    color:#2196F3;
+    
+}
+/*button*/
+.button-cap {
+    background-color: #2196F3;
+    color: #ffff;
+}
