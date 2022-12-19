@@ -25,9 +25,9 @@ ul{
 .site-nav a {
     color: #212121;
 }
-.site-nav.current a{
-   color :var();
 
+.site-nav a.current{
+    color:var(--accent-color) ;
 }
 .color-nav a{
     color:#2196F3;
@@ -37,4 +37,21 @@ ul{
 .button-cap {
     background-color: #2196F3;
     color: #ffff;
+}
+
+/*basement*/
+.basement{
+   background-color: #2F303A;
+   color: #ffff;
+}
+.basement-logo a{
+    color: #ffff;
+}
+.basement-inf a {
+   color: #FFFFFF99;
+}
+/*portfolio page*/
+list-button{
+    background-color: #F5F4FA;
+    color:#212121;
 }
