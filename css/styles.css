@@ -6,7 +6,7 @@
 body {
 background-color: #ffff;
 color: #212121;
-;
+font-family:Roboto,sans-serif;
 }
 ul{
     list-style: none;
@@ -18,8 +18,11 @@ p{
 }
 /* logotype*/
 .logo a {
-    
     color: #212121;
+    font-family: Raleway,sans-serif ;
+font-size: 26px;
+line-height: 1.2;
+
 }
 .logo-web{
     color: #2196F3;
@@ -28,6 +31,11 @@ p{
 
 .site-nav a {
     color: #212121;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+
 }
 
 .site-nav a.current{
