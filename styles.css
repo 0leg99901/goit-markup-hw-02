@@ -20,9 +20,14 @@ p{
 }
 .top-line{
     background: #FFFFFF;
+   
     
 }
+
 /* logotype*/
+.logo a:hover,.logo a:focus{
+    color: #2196F3;
+}
 .logo a {
     color: #212121;
     font-family: Raleway,sans-serif;
@@ -36,6 +41,9 @@ text-decoration:none ;
     color: #2196F3;
 }
 /* site navigation*/
+.site-nav a:hover,.site-nav a :focus{
+    color: #2196F3;
+}
 .site-nav a {
     color: #212121;
     font-family:Roboto,sans-serif ;
@@ -50,13 +58,17 @@ text-decoration:none ;
     color:var(--accent-color) ;
 }
 .color-nav a{
-    color:#2196F3;
+    color: #757575;
+   
     
 }
 /*cap*/
 .cap{
     background: #2F303A;
     color:#ffff;  
+}
+.button-cap :hover,.button-cap:focus{
+    color: #2196F3;
 }
 .button-cap {
     background-color: #2196F3;
@@ -72,6 +84,7 @@ text-decoration:none ;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
+cursor: pointer;
 
 }
 h1{
@@ -143,12 +156,17 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
+
     
  }
  /*portfolio page*/
-list-button{
+ .list-butt:hover,.list-butt:focus{
+    color: #2196F3;
+ }
+.list-button{
     background-color: #F5F4FA;
     color:#212121;
+    cursor: pointer;
 }
  /* portfolio project*/
 .project{
