@@ -187,11 +187,10 @@ color: var(--additional-color);
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.basement-logo a:hover,
-.basement-logo a:focus{
-  color: var(--accent-color);
-}
+
 .basement-logo a {
+  font-family: 'Raleway';
+  font-style: normal;
   color: #ffff;
   font-weight: 700;
   font-size: 26px;
